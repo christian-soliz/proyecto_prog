@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadisticas Covid Bolivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo"><a href="login.html"><img id="logo-inicio"></a></div>
+            <ul class="nav-links">
+                <li>
+                    <a href="">Estadisticas</a>
+                </li>
+                <li>
+                    <a href="./sintomas.html">Sintomas</a>
+                </li>
+                <li>
+                    <a href="./recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li>
+                    <a href="./aboutCovid.html">¿Qué es el COVID-19?</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+               
+            </ul>
+            <div class="icons">
+                <i id="menu" class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="contentContainer">
+            <div class="statistics">
+                <h1>
+                    Bolivia
+                    <img class="bandera" src="./img/banderaBolivia.png" alt="bolivia">
+                </h1>
+                <h2>Casos Confirmados</h2>
+                <h5 id="confirmed" class="casos">1263876</h5>
+                <h2>Casos Recuperados</h2>
+                <h5 id="recovered" class="casos">1263876</h5>
+                <h2>Muertes</h2>
+                <h5 id="dead" class="casos">1263876</h5>
+                <p class="tituloUltimaActualizacion">Ultima Actualizacion</p>
+                <small id="updated" class="ultimaActualizacion">
+                    ultima actualizacion: 2020/10/02
+                </small>
+            </div>
+            <div class="svgGraphic">
+                <img src="./img/undraw_visual_data_b1wx.svg" alt="grafico">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h6>Estadisticas Covid &reg;</h6>
+    </footer>
+
+    <script src="./js/fetchApi.js"></script>
+    <script src="./js/navBar.js"></script>
+    <script src="https://kit.fontawesome.com/6d0d910aeb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

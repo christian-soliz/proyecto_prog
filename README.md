@@ -1,1 +1,2 @@
-# proyecto_prog
+# estadisticascovid
+Este Proyecto tiene como objetivo mostrar las estadisticas del covid en bolivia en tiempo real

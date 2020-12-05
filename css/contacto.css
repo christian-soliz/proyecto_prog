@@ -1,0 +1,52 @@
+.clase-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    background: #00A87E;
+    border-radius: 7px;
+    height: auto;
+   }
+   
+.clase-1 h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   }
+.clase-nav input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+.clase-nav textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.clase-nav #boton{
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+}
+.clase-nav #boton:hover{
+    cursor: pointer;
+}
+@media(max-width:480px){
+    .form{
+        width: 100%;
+    }
+}
